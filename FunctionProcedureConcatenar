@@ -1,0 +1,20 @@
+Program HelloWorld(output);
+
+    //função de soma
+    procedure Soma(a, b: integer);
+    begin
+       writeln('SOMA: ', a + b);
+    end;
+    
+    function Soma2(a, b: integer): real;
+    begin
+        Soma2:= a + b + 0.5;   
+    end;
+    
+    
+begin
+    soma(2, 2);
+    writeln(soma2(3, 3):1:1);
+    //concatenação
+    writeln('Concatenar' + ' string');
+end.
